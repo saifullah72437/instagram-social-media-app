@@ -10,24 +10,6 @@ import { getStorage } from "firebase/storage";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 
-// const firebaseApp = {
-//    apiKey: "AIzaSyAB_h55Yp6URwkXQN2H_6iKDq-r7KzZkNQ",
-//    authDomain: "instagram-clone-b5e74.firebaseapp.com",
-//    projectId: "instagram-clone-b5e74",
-//    storageBucket: "instagram-clone-b5e74.appspot.com",
-//    messagingSenderId: "526667561957",
-//    appId: "1:526667561957:web:bc44e238d47b8b2fff0d0c",
-// };
-// const firebaseApp =  {
-//    apiKey: "AIzaSyB5kRkmBYbEmklZfJa1k4BBzV1EAmwfhmI",
-//    authDomain: "easy-paisa-coin-app.firebaseapp.com",
-//    databaseURL: "https://easy-paisa-coin-app-default-rtdb.firebaseio.com",
-//    projectId: "easy-paisa-coin-app",
-//    storageBucket: "easy-paisa-coin-app.appspot.com",
-//    messagingSenderId: "965278350185",
-//    appId: "1:965278350185:web:3c8cd9d7e2ca2b379a9bf8",
-//    measurementId: "G-1C22CBGT9L"
-//  };
 const firebaseApp = {
    apiKey: process.env.REACT_APP_API_KEY,
    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
